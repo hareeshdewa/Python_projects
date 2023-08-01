@@ -1,3 +1,24 @@
 The above Projects I mentioned represent a rudimentary foundation using Python 
 that runs on the console-based format and 
 is illustrated in an understandable manner using elemental data structures. 
+
+1. Project-> Adventure:
+This is a text-based choose-your-own-adventure game implemented in Python. 
+The code presents an adventure scenario where the player navigates through various choices and outcomes based on their decisions.
+
+2. Project-> Number Guess:
+This project is a number-guessing game implemented in Python. 
+The game allows the player to guess a randomly generated number within a specified range.
+
+3. Project-> Quiz Game:
+This project is an uncomplicated quiz game in Python. It prompts the user with several 
+questions related to computer acronyms and provide feedback based on the answers.
+The game also calculates the score and percentage of correct answers.
+
+4. Project-> Rock, Paper, and Scissors:
+The design is a simple implementation of a Rock-Paper-Scissors game in Python. 
+The game allows the user to play against the computer, and it keeps track of the number of times the user and the computer win.
+
+5. Project -> Anagram:
+This project is a program in Python to check whether two words are anagrams or not. 
+An anagram is a word or phrase formed by rearranging the letters of another, typically using all the original letters exactly once.
