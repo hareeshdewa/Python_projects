@@ -1,6 +1,5 @@
 # Valid Anagram:
 # A program to check whether it is an anagram:
-# First neetcode - Interview
 
 def isAnagram():
     first_word = input("Enter the first word: ")
