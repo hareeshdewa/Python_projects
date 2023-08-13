@@ -17,8 +17,13 @@ The game also calculates the score and percentage of correct answers.
 
 4. Project-> Rock, Paper, and Scissors:
 The design is a simple implementation of a Rock-Paper-Scissors game in Python. 
-The game allows the user to play against the computer, and it keeps track of the number of times the user and the computer win.
+The game allows the user to play against the computer and keeps track of the number of times the user and the computer win.
 
 5. Project -> Anagram:
 This project is a program in Python to check whether two words are anagrams or not. 
 An anagram is a word or phrase formed by rearranging the letters of another, typically using all the original letters exactly once.
+
+6. Project -> Calculator:
+This Project defines a simple calculator program that allows users to perform basic arithmetic operations
+(addition, subtraction, multiplication, and division) on two numbers. 
+The code also utilizes a decorator to enhance the user experience by providing a prompt to continue using the calculator after each operation.
