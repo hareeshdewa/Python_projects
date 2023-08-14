@@ -1,13 +1,26 @@
 import random
-
+print("Welcome to this game!!!!!!!!")
+def Retry_game(func):
+    def wrapper():
+        func()
+        attempt = input("Press Y, to re-attempt, or Press N to Exit: ")
+        if attempt == "N".lower():
+            print("Byee :)")
+            quit()
+        else:
+            if attempt == "Y".lower():
+                func()
+    return wrapper
+    
+@Retry_game
 def rock_paper_scissors():
     user_wins = 0
     computer_wins = 0
     list_of_items = ['rock', 'paper','scissors']
 
     while True:
-        user_input = input("Type Rock/Paper/Scissors or Q to quite: ").lower()
-        if user_input == 'q':
+        user_input = input("Type Rock/Paper/Scissors: ").lower()
+        if user_input == "Q".lower():
             break
         if user_input not in list_of_items:
             print("Type the provided words")
@@ -35,6 +48,5 @@ def rock_paper_scissors():
 
     print("You won",user_wins,"times")
     print("The computer won",computer_wins,"times")
-    print("GoodBye!!")
 rock_paper_scissors()
 
